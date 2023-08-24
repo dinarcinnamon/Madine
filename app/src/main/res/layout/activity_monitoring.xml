@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monitoringnew"
+    tools:context=".Monitoring">
+
+    <Button
+        android:id="@+id/parking_a1"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/green"
+        android:text="A1"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/parking_a2"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/green"
+        android:text="A2"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parking_a1" />
+
+    <Button
+        android:id="@+id/parking_a3"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/green"
+        android:text="A3"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parking_a2" />
+
+    <Button
+        android:id="@+id/parking_a4"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/green"
+        android:text="A4"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parking_a3" />
+
+    <Button
+        android:id="@+id/parking_a5"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/green"
+        android:text="A5"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parking_a4" />
+
+    <Button
+        android:id="@+id/parking_a6"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/red"
+        android:text="A6"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parking_a5" />
+
+    <Button
+        android:id="@+id/parking_b1"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/red"
+        android:text="B1"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parking_a6" />
+
+    <Button
+        android:id="@+id/parking_b2"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/red"
+        android:text="B2"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parking_b1" />
+
+    <Button
+        android:id="@+id/parking_b3"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/red"
+        android:text="B3"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parking_b2" />
+
+    <Button
+        android:id="@+id/parking_b4"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/green"
+        android:text="B4"
+        android:textSize="13sp"
+        app:cornerRadius="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parking_b3" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:src="@drawable/grup10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
